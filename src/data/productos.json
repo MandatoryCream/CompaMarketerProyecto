@@ -1,0 +1,747 @@
+{
+  "categorias": ["Todas", "Lácteos", "Despensa", "Bebidas", "Limpieza", "Panadería", "Carnes", "Frutas y Verduras", "Cuidado Personal", "Mascotas", "Congelados"],
+  "supermercados": [
+    { "id": "lider", "nombre": "Líder", "color": "#00A650", "icono": "L" },
+    { "id": "unimarc", "nombre": "Unimarc", "color": "#E30613", "icono": "U" },
+    { "id": "santa_isabel", "nombre": "Santa Isabel", "color": "#003DA5", "icono": "SI" },
+    { "id": "jumbo", "nombre": "Jumbo", "color": "#F58220", "icono": "J" },
+    { "id": "spid", "nombre": "Spid", "color": "#0098D5", "icono": "S" }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Leche Entera 1L",
+      "categoria": "Lácteos",
+      "imagen": "🥛",
+      "precios": [
+        { "supermercado": "lider", "valor": 1050, "link": "https://www.lider.cl/leche", "esOferta": true, "precioAnterior": 1250 },
+        { "supermercado": "unimarc", "valor": 1190, "link": "https://www.unimarc.cl/leche", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 1090, "link": "https://www.santaisabel.cl/leche", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 1290, "link": "https://www.jumbo.cl/leche", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 1150, "link": "https://www.spid.cl/leche", "esOferta": true, "precioAnterior": 1350 }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 1200, "unimarc": 1250, "santa_isabel": 1150, "jumbo": 1350, "spid": 1300 } },
+        { "fecha": "2026-02", "valores": { "lider": 1180, "unimarc": 1230, "santa_isabel": 1120, "jumbo": 1320, "spid": 1280 } },
+        { "fecha": "2026-03", "valores": { "lider": 1150, "unimarc": 1200, "santa_isabel": 1100, "jumbo": 1300, "spid": 1250 } },
+        { "fecha": "2026-04", "valores": { "lider": 1100, "unimarc": 1190, "santa_isabel": 1090, "jumbo": 1290, "spid": 1200 } },
+        { "fecha": "2026-05", "valores": { "lider": 1050, "unimarc": 1190, "santa_isabel": 1090, "jumbo": 1290, "spid": 1180 } },
+        { "fecha": "2026-06", "valores": { "lider": 1050, "unimarc": 1190, "santa_isabel": 1090, "jumbo": 1290, "spid": 1150 } }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Pan Molde 800g",
+      "categoria": "Panadería",
+      "imagen": "🍞",
+      "precios": [
+        { "supermercado": "lider", "valor": 2190, "link": "https://www.lider.cl/pan", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 2390, "link": "https://www.unimarc.cl/pan", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 2250, "link": "https://www.santaisabel.cl/pan", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 2490, "link": "https://www.jumbo.cl/pan", "esOferta": true, "precioAnterior": 2890 },
+        { "supermercado": "spid", "valor": 2290, "link": "https://www.spid.cl/pan", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 2290, "unimarc": 2490, "santa_isabel": 2350, "jumbo": 2790, "spid": 2390 } },
+        { "fecha": "2026-02", "valores": { "lider": 2250, "unimarc": 2450, "santa_isabel": 2300, "jumbo": 2750, "spid": 2350 } },
+        { "fecha": "2026-03", "valores": { "lider": 2190, "unimarc": 2390, "santa_isabel": 2250, "jumbo": 2690, "spid": 2290 } },
+        { "fecha": "2026-04", "valores": { "lider": 2190, "unimarc": 2390, "santa_isabel": 2250, "jumbo": 2590, "spid": 2290 } },
+        { "fecha": "2026-05", "valores": { "lider": 2190, "unimarc": 2390, "santa_isabel": 2250, "jumbo": 2490, "spid": 2290 } },
+        { "fecha": "2026-06", "valores": { "lider": 2190, "unimarc": 2390, "santa_isabel": 2250, "jumbo": 2490, "spid": 2290 } }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Arroz Grado 1 1kg",
+      "categoria": "Despensa",
+      "imagen": "🍚",
+      "precios": [
+        { "supermercado": "lider", "valor": 1290, "link": "https://www.lider.cl/arroz", "esOferta": true, "precioAnterior": 1590 },
+        { "supermercado": "unimarc", "valor": 1490, "link": "https://www.unimarc.cl/arroz", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 1390, "link": "https://www.santaisabel.cl/arroz", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 1590, "link": "https://www.jumbo.cl/arroz", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 1350, "link": "https://www.spid.cl/arroz", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 1490, "unimarc": 1590, "santa_isabel": 1490, "jumbo": 1690, "spid": 1450 } },
+        { "fecha": "2026-02", "valores": { "lider": 1450, "unimarc": 1550, "santa_isabel": 1450, "jumbo": 1650, "spid": 1420 } },
+        { "fecha": "2026-03", "valores": { "lider": 1390, "unimarc": 1520, "santa_isabel": 1420, "jumbo": 1620, "spid": 1390 } },
+        { "fecha": "2026-04", "valores": { "lider": 1350, "unimarc": 1490, "santa_isabel": 1390, "jumbo": 1590, "spid": 1350 } },
+        { "fecha": "2026-05", "valores": { "lider": 1290, "unimarc": 1490, "santa_isabel": 1390, "jumbo": 1590, "spid": 1350 } },
+        { "fecha": "2026-06", "valores": { "lider": 1290, "unimarc": 1490, "santa_isabel": 1390, "jumbo": 1590, "spid": 1350 } }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Fideos Spaghetti 500g",
+      "categoria": "Despensa",
+      "imagen": "🍝",
+      "precios": [
+        { "supermercado": "lider", "valor": 890, "link": "https://www.lider.cl/fideos", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 990, "link": "https://www.unimarc.cl/fideos", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 950, "link": "https://www.santaisabel.cl/fideos", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 1090, "link": "https://www.jumbo.cl/fideos", "esOferta": true, "precioAnterior": 1290 },
+        { "supermercado": "spid", "valor": 920, "link": "https://www.spid.cl/fideos", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 990, "unimarc": 1090, "santa_isabel": 1050, "jumbo": 1290, "spid": 1020 } },
+        { "fecha": "2026-02", "valores": { "lider": 950, "unimarc": 1050, "santa_isabel": 1020, "jumbo": 1250, "spid": 990 } },
+        { "fecha": "2026-03", "valores": { "lider": 920, "unimarc": 1020, "santa_isabel": 990, "jumbo": 1190, "spid": 950 } },
+        { "fecha": "2026-04", "valores": { "lider": 890, "unimarc": 990, "santa_isabel": 950, "jumbo": 1150, "spid": 920 } },
+        { "fecha": "2026-05", "valores": { "lider": 890, "unimarc": 990, "santa_isabel": 950, "jumbo": 1090, "spid": 920 } },
+        { "fecha": "2026-06", "valores": { "lider": 890, "unimarc": 990, "santa_isabel": 950, "jumbo": 1090, "spid": 920 } }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Aceite Vegetal 1L",
+      "categoria": "Despensa",
+      "imagen": "🫒",
+      "precios": [
+        { "supermercado": "lider", "valor": 2690, "link": "https://www.lider.cl/aceite", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 2990, "link": "https://www.unimarc.cl/aceite", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 2890, "link": "https://www.santaisabel.cl/aceite", "esOferta": true, "precioAnterior": 3290 },
+        { "supermercado": "jumbo", "valor": 3190, "link": "https://www.jumbo.cl/aceite", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 2790, "link": "https://www.spid.cl/aceite", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 2990, "unimarc": 3290, "santa_isabel": 3290, "jumbo": 3490, "spid": 3090 } },
+        { "fecha": "2026-02", "valores": { "lider": 2890, "unimarc": 3190, "santa_isabel": 3190, "jumbo": 3390, "spid": 2990 } },
+        { "fecha": "2026-03", "valores": { "lider": 2790, "unimarc": 3090, "santa_isabel": 3090, "jumbo": 3290, "spid": 2890 } },
+        { "fecha": "2026-04", "valores": { "lider": 2690, "unimarc": 2990, "santa_isabel": 2990, "jumbo": 3190, "spid": 2790 } },
+        { "fecha": "2026-05", "valores": { "lider": 2690, "unimarc": 2990, "santa_isabel": 2890, "jumbo": 3190, "spid": 2790 } },
+        { "fecha": "2026-06", "valores": { "lider": 2690, "unimarc": 2990, "santa_isabel": 2890, "jumbo": 3190, "spid": 2790 } }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Detergente Líquido 1L",
+      "categoria": "Limpieza",
+      "imagen": "🧴",
+      "precios": [
+        { "supermercado": "lider", "valor": 2990, "link": "https://www.lider.cl/detergente", "esOferta": true, "precioAnterior": 3590 },
+        { "supermercado": "unimarc", "valor": 3390, "link": "https://www.unimarc.cl/detergente", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 3250, "link": "https://www.santaisabel.cl/detergente", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 3590, "link": "https://www.jumbo.cl/detergente", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 3150, "link": "https://www.spid.cl/detergente", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 3490, "unimarc": 3590, "santa_isabel": 3450, "jumbo": 3790, "spid": 3350 } },
+        { "fecha": "2026-02", "valores": { "lider": 3390, "unimarc": 3490, "santa_isabel": 3390, "jumbo": 3690, "spid": 3290 } },
+        { "fecha": "2026-03", "valores": { "lider": 3190, "unimarc": 3390, "santa_isabel": 3290, "jumbo": 3590, "spid": 3190 } },
+        { "fecha": "2026-04", "valores": { "lider": 2990, "unimarc": 3390, "santa_isabel": 3250, "jumbo": 3590, "spid": 3150 } },
+        { "fecha": "2026-05", "valores": { "lider": 2990, "unimarc": 3390, "santa_isabel": 3250, "jumbo": 3590, "spid": 3150 } },
+        { "fecha": "2026-06", "valores": { "lider": 2990, "unimarc": 3390, "santa_isabel": 3250, "jumbo": 3590, "spid": 3150 } }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Café Instantáneo 200g",
+      "categoria": "Despensa",
+      "imagen": "☕",
+      "precios": [
+        { "supermercado": "lider", "valor": 3990, "link": "https://www.lider.cl/cafe", "esOferta": true, "precioAnterior": 4590 },
+        { "supermercado": "unimarc", "valor": 4490, "link": "https://www.unimarc.cl/cafe", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 4290, "link": "https://www.santaisabel.cl/cafe", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 4690, "link": "https://www.jumbo.cl/cafe", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 4190, "link": "https://www.spid.cl/cafe", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 4490, "unimarc": 4790, "santa_isabel": 4590, "jumbo": 4990, "spid": 4490 } },
+        { "fecha": "2026-02", "valores": { "lider": 4390, "unimarc": 4690, "santa_isabel": 4490, "jumbo": 4890, "spid": 4390 } },
+        { "fecha": "2026-03", "valores": { "lider": 4190, "unimarc": 4590, "santa_isabel": 4390, "jumbo": 4790, "spid": 4290 } },
+        { "fecha": "2026-04", "valores": { "lider": 4090, "unimarc": 4490, "santa_isabel": 4290, "jumbo": 4690, "spid": 4190 } },
+        { "fecha": "2026-05", "valores": { "lider": 3990, "unimarc": 4490, "santa_isabel": 4290, "jumbo": 4690, "spid": 4190 } },
+        { "fecha": "2026-06", "valores": { "lider": 3990, "unimarc": 4490, "santa_isabel": 4290, "jumbo": 4690, "spid": 4190 } }
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Bebida Cola 2L",
+      "categoria": "Bebidas",
+      "imagen": "🥤",
+      "precios": [
+        { "supermercado": "lider", "valor": 1890, "link": "https://www.lider.cl/bebida", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 2090, "link": "https://www.unimarc.cl/bebida", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 1990, "link": "https://www.santaisabel.cl/bebida", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 2190, "link": "https://www.jumbo.cl/bebida", "esOferta": true, "precioAnterior": 2590 },
+        { "supermercado": "spid", "valor": 1950, "link": "https://www.spid.cl/bebida", "esOferta": true, "precioAnterior": 2190 }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 2090, "unimarc": 2290, "santa_isabel": 2190, "jumbo": 2590, "spid": 2190 } },
+        { "fecha": "2026-02", "valores": { "lider": 1990, "unimarc": 2190, "santa_isabel": 2090, "jumbo": 2490, "spid": 2090 } },
+        { "fecha": "2026-03", "valores": { "lider": 1990, "unimarc": 2190, "santa_isabel": 2090, "jumbo": 2390, "spid": 2050 } },
+        { "fecha": "2026-04", "valores": { "lider": 1890, "unimarc": 2090, "santa_isabel": 1990, "jumbo": 2290, "spid": 1990 } },
+        { "fecha": "2026-05", "valores": { "lider": 1890, "unimarc": 2090, "santa_isabel": 1990, "jumbo": 2190, "spid": 1950 } },
+        { "fecha": "2026-06", "valores": { "lider": 1890, "unimarc": 2090, "santa_isabel": 1990, "jumbo": 2190, "spid": 1950 } }
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Queso Laminado 200g",
+      "categoria": "Lácteos",
+      "imagen": "🧀",
+      "precios": [
+        { "supermercado": "lider", "valor": 2490, "link": "https://www.lider.cl/queso", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 2790, "link": "https://www.unimarc.cl/queso", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 2690, "link": "https://www.santaisabel.cl/queso", "esOferta": true, "precioAnterior": 2990 },
+        { "supermercado": "jumbo", "valor": 2990, "link": "https://www.jumbo.cl/queso", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 2590, "link": "https://www.spid.cl/queso", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 2790, "unimarc": 2990, "santa_isabel": 2990, "jumbo": 3290, "spid": 2890 } },
+        { "fecha": "2026-02", "valores": { "lider": 2690, "unimarc": 2890, "santa_isabel": 2890, "jumbo": 3190, "spid": 2790 } },
+        { "fecha": "2026-03", "valores": { "lider": 2590, "unimarc": 2790, "santa_isabel": 2790, "jumbo": 3090, "spid": 2690 } },
+        { "fecha": "2026-04", "valores": { "lider": 2490, "unimarc": 2790, "santa_isabel": 2690, "jumbo": 2990, "spid": 2590 } },
+        { "fecha": "2026-05", "valores": { "lider": 2490, "unimarc": 2790, "santa_isabel": 2690, "jumbo": 2990, "spid": 2590 } },
+        { "fecha": "2026-06", "valores": { "lider": 2490, "unimarc": 2790, "santa_isabel": 2690, "jumbo": 2990, "spid": 2590 } }
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "Harina 1kg",
+      "categoria": "Despensa",
+      "imagen": "🌾",
+      "precios": [
+        { "supermercado": "lider", "valor": 990, "link": "https://www.lider.cl/harina", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 1190, "link": "https://www.unimarc.cl/harina", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 1090, "link": "https://www.santaisabel.cl/harina", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 1290, "link": "https://www.jumbo.cl/harina", "esOferta": true, "precioAnterior": 1490 },
+        { "supermercado": "spid", "valor": 1050, "link": "https://www.spid.cl/harina", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 1190, "unimarc": 1390, "santa_isabel": 1290, "jumbo": 1490, "spid": 1250 } },
+        { "fecha": "2026-02", "valores": { "lider": 1150, "unimarc": 1350, "santa_isabel": 1250, "jumbo": 1450, "spid": 1190 } },
+        { "fecha": "2026-03", "valores": { "lider": 1090, "unimarc": 1290, "santa_isabel": 1190, "jumbo": 1390, "spid": 1150 } },
+        { "fecha": "2026-04", "valores": { "lider": 990, "unimarc": 1190, "santa_isabel": 1090, "jumbo": 1290, "spid": 1050 } },
+        { "fecha": "2026-05", "valores": { "lider": 990, "unimarc": 1190, "santa_isabel": 1090, "jumbo": 1290, "spid": 1050 } },
+        { "fecha": "2026-06", "valores": { "lider": 990, "unimarc": 1190, "santa_isabel": 1090, "jumbo": 1290, "spid": 1050 } }
+      ]
+    },
+    {
+      "id": 11,
+      "nombre": "Azúcar 1kg",
+      "categoria": "Despensa",
+      "imagen": "🍬",
+      "precios": [
+        { "supermercado": "lider", "valor": 1190, "link": "https://www.lider.cl/azucar", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 1390, "link": "https://www.unimarc.cl/azucar", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 1290, "link": "https://www.santaisabel.cl/azucar", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 1490, "link": "https://www.jumbo.cl/azucar", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 1250, "link": "https://www.spid.cl/azucar", "esOferta": true, "precioAnterior": 1390 }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 1390, "unimarc": 1490, "santa_isabel": 1390, "jumbo": 1590, "spid": 1390 } },
+        { "fecha": "2026-02", "valores": { "lider": 1350, "unimarc": 1450, "santa_isabel": 1350, "jumbo": 1550, "spid": 1350 } },
+        { "fecha": "2026-03", "valores": { "lider": 1290, "unimarc": 1390, "santa_isabel": 1290, "jumbo": 1490, "spid": 1290 } },
+        { "fecha": "2026-04", "valores": { "lider": 1190, "unimarc": 1390, "santa_isabel": 1290, "jumbo": 1490, "spid": 1250 } },
+        { "fecha": "2026-05", "valores": { "lider": 1190, "unimarc": 1390, "santa_isabel": 1290, "jumbo": 1490, "spid": 1250 } },
+        { "fecha": "2026-06", "valores": { "lider": 1190, "unimarc": 1390, "santa_isabel": 1290, "jumbo": 1490, "spid": 1250 } }
+      ]
+    },
+    {
+      "id": 12,
+      "nombre": "Postre de Leche 120g",
+      "categoria": "Lácteos",
+      "imagen": "🍮",
+      "precios": [
+        { "supermercado": "lider", "valor": 690, "link": "https://www.lider.cl/postre", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 790, "link": "https://www.unimarc.cl/postre", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 750, "link": "https://www.santaisabel.cl/postre", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 890, "link": "https://www.jumbo.cl/postre", "esOferta": true, "precioAnterior": 990 },
+        { "supermercado": "spid", "valor": 720, "link": "https://www.spid.cl/postre", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 790, "unimarc": 890, "santa_isabel": 850, "jumbo": 990, "spid": 820 } },
+        { "fecha": "2026-02", "valores": { "lider": 750, "unimarc": 850, "santa_isabel": 820, "jumbo": 950, "spid": 790 } },
+        { "fecha": "2026-03", "valores": { "lider": 720, "unimarc": 820, "santa_isabel": 790, "jumbo": 920, "spid": 760 } },
+        { "fecha": "2026-04", "valores": { "lider": 690, "unimarc": 790, "santa_isabel": 750, "jumbo": 890, "spid": 720 } },
+        { "fecha": "2026-05", "valores": { "lider": 690, "unimarc": 790, "santa_isabel": 750, "jumbo": 890, "spid": 720 } },
+        { "fecha": "2026-06", "valores": { "lider": 690, "unimarc": 790, "santa_isabel": 750, "jumbo": 890, "spid": 720 } }
+      ]
+    },
+    {
+      "id": 13,
+      "nombre": "Yogurt Natural 1kg",
+      "categoria": "Lácteos",
+      "imagen": "🥄",
+      "precios": [
+        { "supermercado": "lider", "valor": 2390, "link": "https://www.lider.cl/yogurt", "esOferta": true, "precioAnterior": 2790 },
+        { "supermercado": "unimarc", "valor": 2690, "link": "https://www.unimarc.cl/yogurt", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 2590, "link": "https://www.santaisabel.cl/yogurt", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 2890, "link": "https://www.jumbo.cl/yogurt", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 2490, "link": "https://www.spid.cl/yogurt", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 2790, "unimarc": 2990, "santa_isabel": 2890, "jumbo": 3090, "spid": 2790 } },
+        { "fecha": "2026-02", "valores": { "lider": 2690, "unimarc": 2890, "santa_isabel": 2790, "jumbo": 2990, "spid": 2690 } },
+        { "fecha": "2026-03", "valores": { "lider": 2590, "unimarc": 2790, "santa_isabel": 2690, "jumbo": 2890, "spid": 2590 } },
+        { "fecha": "2026-04", "valores": { "lider": 2490, "unimarc": 2690, "santa_isabel": 2590, "jumbo": 2890, "spid": 2490 } },
+        { "fecha": "2026-05", "valores": { "lider": 2390, "unimarc": 2690, "santa_isabel": 2590, "jumbo": 2890, "spid": 2490 } },
+        { "fecha": "2026-06", "valores": { "lider": 2390, "unimarc": 2690, "santa_isabel": 2590, "jumbo": 2890, "spid": 2490 } }
+      ]
+    },
+    {
+      "id": 14,
+      "nombre": "Mantequilla 250g",
+      "categoria": "Lácteos",
+      "imagen": "🧈",
+      "precios": [
+        { "supermercado": "lider", "valor": 1890, "link": "https://www.lider.cl/mantequilla", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 2190, "link": "https://www.unimarc.cl/mantequilla", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 2090, "link": "https://www.santaisabel.cl/mantequilla", "esOferta": true, "precioAnterior": 2390 },
+        { "supermercado": "jumbo", "valor": 2390, "link": "https://www.jumbo.cl/mantequilla", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 1990, "link": "https://www.spid.cl/mantequilla", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 2190, "unimarc": 2390, "santa_isabel": 2390, "jumbo": 2590, "spid": 2290 } },
+        { "fecha": "2026-02", "valores": { "lider": 2090, "unimarc": 2290, "santa_isabel": 2290, "jumbo": 2490, "spid": 2190 } },
+        { "fecha": "2026-03", "valores": { "lider": 1990, "unimarc": 2190, "santa_isabel": 2190, "jumbo": 2390, "spid": 2090 } },
+        { "fecha": "2026-04", "valores": { "lider": 1890, "unimarc": 2190, "santa_isabel": 2090, "jumbo": 2390, "spid": 1990 } },
+        { "fecha": "2026-05", "valores": { "lider": 1890, "unimarc": 2190, "santa_isabel": 2090, "jumbo": 2390, "spid": 1990 } },
+        { "fecha": "2026-06", "valores": { "lider": 1890, "unimarc": 2190, "santa_isabel": 2090, "jumbo": 2390, "spid": 1990 } }
+      ]
+    },
+    {
+      "id": 15,
+      "nombre": "Pechuga de Pollo 1kg",
+      "categoria": "Carnes",
+      "imagen": "🍗",
+      "precios": [
+        { "supermercado": "lider", "valor": 4990, "link": "https://www.lider.cl/pollo", "esOferta": true, "precioAnterior": 5990 },
+        { "supermercado": "unimarc", "valor": 5590, "link": "https://www.unimarc.cl/pollo", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 5390, "link": "https://www.santaisabel.cl/pollo", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 5990, "link": "https://www.jumbo.cl/pollo", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 5290, "link": "https://www.spid.cl/pollo", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 5990, "unimarc": 6290, "santa_isabel": 5990, "jumbo": 6590, "spid": 5990 } },
+        { "fecha": "2026-02", "valores": { "lider": 5790, "unimarc": 6090, "santa_isabel": 5890, "jumbo": 6390, "spid": 5890 } },
+        { "fecha": "2026-03", "valores": { "lider": 5490, "unimarc": 5890, "santa_isabel": 5690, "jumbo": 6190, "spid": 5690 } },
+        { "fecha": "2026-04", "valores": { "lider": 5190, "unimarc": 5690, "santa_isabel": 5490, "jumbo": 5990, "spid": 5490 } },
+        { "fecha": "2026-05", "valores": { "lider": 4990, "unimarc": 5590, "santa_isabel": 5390, "jumbo": 5990, "spid": 5290 } },
+        { "fecha": "2026-06", "valores": { "lider": 4990, "unimarc": 5590, "santa_isabel": 5390, "jumbo": 5990, "spid": 5290 } }
+      ]
+    },
+    {
+      "id": 16,
+      "nombre": "Carne Molida 1kg",
+      "categoria": "Carnes",
+      "imagen": "🥩",
+      "precios": [
+        { "supermercado": "lider", "valor": 5990, "link": "https://www.lider.cl/carne", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 6590, "link": "https://www.unimarc.cl/carne", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 6390, "link": "https://www.santaisabel.cl/carne", "esOferta": true, "precioAnterior": 6990 },
+        { "supermercado": "jumbo", "valor": 6990, "link": "https://www.jumbo.cl/carne", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 6290, "link": "https://www.spid.cl/carne", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 6590, "unimarc": 6990, "santa_isabel": 6990, "jumbo": 7590, "spid": 6890 } },
+        { "fecha": "2026-02", "valores": { "lider": 6390, "unimarc": 6790, "santa_isabel": 6790, "jumbo": 7390, "spid": 6690 } },
+        { "fecha": "2026-03", "valores": { "lider": 6190, "unimarc": 6590, "santa_isabel": 6590, "jumbo": 7190, "spid": 6490 } },
+        { "fecha": "2026-04", "valores": { "lider": 5990, "unimarc": 6590, "santa_isabel": 6390, "jumbo": 6990, "spid": 6290 } },
+        { "fecha": "2026-05", "valores": { "lider": 5990, "unimarc": 6590, "santa_isabel": 6390, "jumbo": 6990, "spid": 6290 } },
+        { "fecha": "2026-06", "valores": { "lider": 5990, "unimarc": 6590, "santa_isabel": 6390, "jumbo": 6990, "spid": 6290 } }
+      ]
+    },
+    {
+      "id": 17,
+      "nombre": "Salmon Ahumado 200g",
+      "categoria": "Carnes",
+      "imagen": "🐟",
+      "precios": [
+        { "supermercado": "lider", "valor": 7990, "link": "https://www.lider.cl/salmon", "esOferta": true, "precioAnterior": 8990 },
+        { "supermercado": "unimarc", "valor": 8590, "link": "https://www.unimarc.cl/salmon", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 8490, "link": "https://www.santaisabel.cl/salmon", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 8990, "link": "https://www.jumbo.cl/salmon", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 8290, "link": "https://www.spid.cl/salmon", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 8990, "unimarc": 9290, "santa_isabel": 8990, "jumbo": 9490, "spid": 8990 } },
+        { "fecha": "2026-02", "valores": { "lider": 8690, "unimarc": 8990, "santa_isabel": 8790, "jumbo": 9290, "spid": 8790 } },
+        { "fecha": "2026-03", "valores": { "lider": 8390, "unimarc": 8790, "santa_isabel": 8590, "jumbo": 9090, "spid": 8590 } },
+        { "fecha": "2026-04", "valores": { "lider": 7990, "unimarc": 8590, "santa_isabel": 8490, "jumbo": 8990, "spid": 8290 } },
+        { "fecha": "2026-05", "valores": { "lider": 7990, "unimarc": 8590, "santa_isabel": 8490, "jumbo": 8990, "spid": 8290 } },
+        { "fecha": "2026-06", "valores": { "lider": 7990, "unimarc": 8590, "santa_isabel": 8490, "jumbo": 8990, "spid": 8290 } }
+      ]
+    },
+    {
+      "id": 18,
+      "nombre": "Plátano 1kg",
+      "categoria": "Frutas y Verduras",
+      "imagen": "🍌",
+      "precios": [
+        { "supermercado": "lider", "valor": 990, "link": "https://www.lider.cl/platano", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 1190, "link": "https://www.unimarc.cl/platano", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 1090, "link": "https://www.santaisabel.cl/platano", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 1290, "link": "https://www.jumbo.cl/platano", "esOferta": true, "precioAnterior": 1490 },
+        { "supermercado": "spid", "valor": 1050, "link": "https://www.spid.cl/platano", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 1190, "unimarc": 1390, "santa_isabel": 1290, "jumbo": 1490, "spid": 1250 } },
+        { "fecha": "2026-02", "valores": { "lider": 1150, "unimarc": 1350, "santa_isabel": 1250, "jumbo": 1450, "spid": 1190 } },
+        { "fecha": "2026-03", "valores": { "lider": 1090, "unimarc": 1290, "santa_isabel": 1190, "jumbo": 1390, "spid": 1150 } },
+        { "fecha": "2026-04", "valores": { "lider": 990, "unimarc": 1190, "santa_isabel": 1090, "jumbo": 1290, "spid": 1050 } },
+        { "fecha": "2026-05", "valores": { "lider": 990, "unimarc": 1190, "santa_isabel": 1090, "jumbo": 1290, "spid": 1050 } },
+        { "fecha": "2026-06", "valores": { "lider": 990, "unimarc": 1190, "santa_isabel": 1090, "jumbo": 1290, "spid": 1050 } }
+      ]
+    },
+    {
+      "id": 19,
+      "nombre": "Manzana Fuji 1kg",
+      "categoria": "Frutas y Verduras",
+      "imagen": "🍎",
+      "precios": [
+        { "supermercado": "lider", "valor": 1490, "link": "https://www.lider.cl/manzana", "esOferta": true, "precioAnterior": 1790 },
+        { "supermercado": "unimarc", "valor": 1690, "link": "https://www.unimarc.cl/manzana", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 1590, "link": "https://www.santaisabel.cl/manzana", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 1890, "link": "https://www.jumbo.cl/manzana", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 1550, "link": "https://www.spid.cl/manzana", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 1790, "unimarc": 1990, "santa_isabel": 1890, "jumbo": 2090, "spid": 1850 } },
+        { "fecha": "2026-02", "valores": { "lider": 1690, "unimarc": 1890, "santa_isabel": 1790, "jumbo": 1990, "spid": 1790 } },
+        { "fecha": "2026-03", "valores": { "lider": 1590, "unimarc": 1790, "santa_isabel": 1690, "jumbo": 1890, "spid": 1690 } },
+        { "fecha": "2026-04", "valores": { "lider": 1490, "unimarc": 1690, "santa_isabel": 1590, "jumbo": 1890, "spid": 1550 } },
+        { "fecha": "2026-05", "valores": { "lider": 1490, "unimarc": 1690, "santa_isabel": 1590, "jumbo": 1890, "spid": 1550 } },
+        { "fecha": "2026-06", "valores": { "lider": 1490, "unimarc": 1690, "santa_isabel": 1590, "jumbo": 1890, "spid": 1550 } }
+      ]
+    },
+    {
+      "id": 20,
+      "nombre": "Tomate 1kg",
+      "categoria": "Frutas y Verduras",
+      "imagen": "🍅",
+      "precios": [
+        { "supermercado": "lider", "valor": 1290, "link": "https://www.lider.cl/tomate", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 1590, "link": "https://www.unimarc.cl/tomate", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 1490, "link": "https://www.santaisabel.cl/tomate", "esOferta": true, "precioAnterior": 1790 },
+        { "supermercado": "jumbo", "valor": 1690, "link": "https://www.jumbo.cl/tomate", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 1390, "link": "https://www.spid.cl/tomate", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 1590, "unimarc": 1890, "santa_isabel": 1790, "jumbo": 1990, "spid": 1690 } },
+        { "fecha": "2026-02", "valores": { "lider": 1490, "unimarc": 1790, "santa_isabel": 1690, "jumbo": 1890, "spid": 1590 } },
+        { "fecha": "2026-03", "valores": { "lider": 1390, "unimarc": 1690, "santa_isabel": 1590, "jumbo": 1790, "spid": 1490 } },
+        { "fecha": "2026-04", "valores": { "lider": 1290, "unimarc": 1590, "santa_isabel": 1490, "jumbo": 1690, "spid": 1390 } },
+        { "fecha": "2026-05", "valores": { "lider": 1290, "unimarc": 1590, "santa_isabel": 1490, "jumbo": 1690, "spid": 1390 } },
+        { "fecha": "2026-06", "valores": { "lider": 1290, "unimarc": 1590, "santa_isabel": 1490, "jumbo": 1690, "spid": 1390 } }
+      ]
+    },
+    {
+      "id": 21,
+      "nombre": "Lechuga Escarola",
+      "categoria": "Frutas y Verduras",
+      "imagen": "🥬",
+      "precios": [
+        { "supermercado": "lider", "valor": 790, "link": "https://www.lider.cl/lechuga", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 990, "link": "https://www.unimarc.cl/lechuga", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 890, "link": "https://www.santaisabel.cl/lechuga", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 1090, "link": "https://www.jumbo.cl/lechuga", "esOferta": true, "precioAnterior": 1290 },
+        { "supermercado": "spid", "valor": 850, "link": "https://www.spid.cl/lechuga", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 990, "unimarc": 1190, "santa_isabel": 1090, "jumbo": 1290, "spid": 1050 } },
+        { "fecha": "2026-02", "valores": { "lider": 950, "unimarc": 1150, "santa_isabel": 1050, "jumbo": 1250, "spid": 990 } },
+        { "fecha": "2026-03", "valores": { "lider": 890, "unimarc": 1090, "santa_isabel": 990, "jumbo": 1190, "spid": 950 } },
+        { "fecha": "2026-04", "valores": { "lider": 790, "unimarc": 990, "santa_isabel": 890, "jumbo": 1090, "spid": 850 } },
+        { "fecha": "2026-05", "valores": { "lider": 790, "unimarc": 990, "santa_isabel": 890, "jumbo": 1090, "spid": 850 } },
+        { "fecha": "2026-06", "valores": { "lider": 790, "unimarc": 990, "santa_isabel": 890, "jumbo": 1090, "spid": 850 } }
+      ]
+    },
+    {
+      "id": 22,
+      "nombre": "Cepillo de Dientes",
+      "categoria": "Cuidado Personal",
+      "imagen": "🪥",
+      "precios": [
+        { "supermercado": "lider", "valor": 1290, "link": "https://www.lider.cl/cepillo", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 1590, "link": "https://www.unimarc.cl/cepillo", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 1490, "link": "https://www.santaisabel.cl/cepillo", "esOferta": true, "precioAnterior": 1790 },
+        { "supermercado": "jumbo", "valor": 1690, "link": "https://www.jumbo.cl/cepillo", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 1390, "link": "https://www.spid.cl/cepillo", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 1490, "unimarc": 1790, "santa_isabel": 1790, "jumbo": 1890, "spid": 1590 } },
+        { "fecha": "2026-02", "valores": { "lider": 1390, "unimarc": 1690, "santa_isabel": 1690, "jumbo": 1790, "spid": 1490 } },
+        { "fecha": "2026-03", "valores": { "lider": 1290, "unimarc": 1590, "santa_isabel": 1590, "jumbo": 1690, "spid": 1390 } },
+        { "fecha": "2026-04", "valores": { "lider": 1290, "unimarc": 1590, "santa_isabel": 1490, "jumbo": 1690, "spid": 1390 } },
+        { "fecha": "2026-05", "valores": { "lider": 1290, "unimarc": 1590, "santa_isabel": 1490, "jumbo": 1690, "spid": 1390 } },
+        { "fecha": "2026-06", "valores": { "lider": 1290, "unimarc": 1590, "santa_isabel": 1490, "jumbo": 1690, "spid": 1390 } }
+      ]
+    },
+    {
+      "id": 23,
+      "nombre": "Shampoo 400ml",
+      "categoria": "Cuidado Personal",
+      "imagen": "🧴",
+      "precios": [
+        { "supermercado": "lider", "valor": 3590, "link": "https://www.lider.cl/shampoo", "esOferta": true, "precioAnterior": 4290 },
+        { "supermercado": "unimarc", "valor": 3990, "link": "https://www.unimarc.cl/shampoo", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 3890, "link": "https://www.santaisabel.cl/shampoo", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 4290, "link": "https://www.jumbo.cl/shampoo", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 3790, "link": "https://www.spid.cl/shampoo", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 4290, "unimarc": 4590, "santa_isabel": 4490, "jumbo": 4790, "spid": 4390 } },
+        { "fecha": "2026-02", "valores": { "lider": 4090, "unimarc": 4390, "santa_isabel": 4290, "jumbo": 4590, "spid": 4190 } },
+        { "fecha": "2026-03", "valores": { "lider": 3890, "unimarc": 4190, "santa_isabel": 4090, "jumbo": 4390, "spid": 3990 } },
+        { "fecha": "2026-04", "valores": { "lider": 3690, "unimarc": 3990, "santa_isabel": 3890, "jumbo": 4290, "spid": 3790 } },
+        { "fecha": "2026-05", "valores": { "lider": 3590, "unimarc": 3990, "santa_isabel": 3890, "jumbo": 4290, "spid": 3790 } },
+        { "fecha": "2026-06", "valores": { "lider": 3590, "unimarc": 3990, "santa_isabel": 3890, "jumbo": 4290, "spid": 3790 } }
+      ]
+    },
+    {
+      "id": 24,
+      "nombre": "Desodorante Spray",
+      "categoria": "Cuidado Personal",
+      "imagen": "🧴",
+      "precios": [
+        { "supermercado": "lider", "valor": 2590, "link": "https://www.lider.cl/desodorante", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 2990, "link": "https://www.unimarc.cl/desodorante", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 2890, "link": "https://www.santaisabel.cl/desodorante", "esOferta": true, "precioAnterior": 3290 },
+        { "supermercado": "jumbo", "valor": 3190, "link": "https://www.jumbo.cl/desodorante", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 2790, "link": "https://www.spid.cl/desodorante", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 2990, "unimarc": 3290, "santa_isabel": 3290, "jumbo": 3590, "spid": 3190 } },
+        { "fecha": "2026-02", "valores": { "lider": 2890, "unimarc": 3190, "santa_isabel": 3190, "jumbo": 3490, "spid": 3090 } },
+        { "fecha": "2026-03", "valores": { "lider": 2790, "unimarc": 3090, "santa_isabel": 3090, "jumbo": 3390, "spid": 2990 } },
+        { "fecha": "2026-04", "valores": { "lider": 2690, "unimarc": 2990, "santa_isabel": 2890, "jumbo": 3190, "spid": 2790 } },
+        { "fecha": "2026-05", "valores": { "lider": 2590, "unimarc": 2990, "santa_isabel": 2890, "jumbo": 3190, "spid": 2790 } },
+        { "fecha": "2026-06", "valores": { "lider": 2590, "unimarc": 2990, "santa_isabel": 2890, "jumbo": 3190, "spid": 2790 } }
+      ]
+    },
+    {
+      "id": 25,
+      "nombre": "Papel Higiénico 4 rollos",
+      "categoria": "Limpieza",
+      "imagen": "🧻",
+      "precios": [
+        { "supermercado": "lider", "valor": 1590, "link": "https://www.lider.cl/papel", "esOferta": true, "precioAnterior": 1990 },
+        { "supermercado": "unimarc", "valor": 1890, "link": "https://www.unimarc.cl/papel", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 1790, "link": "https://www.santaisabel.cl/papel", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 2090, "link": "https://www.jumbo.cl/papel", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 1750, "link": "https://www.spid.cl/papel", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 1990, "unimarc": 2190, "santa_isabel": 2090, "jumbo": 2390, "spid": 2050 } },
+        { "fecha": "2026-02", "valores": { "lider": 1890, "unimarc": 2090, "santa_isabel": 1990, "jumbo": 2290, "spid": 1950 } },
+        { "fecha": "2026-03", "valores": { "lider": 1790, "unimarc": 1990, "santa_isabel": 1890, "jumbo": 2190, "spid": 1850 } },
+        { "fecha": "2026-04", "valores": { "lider": 1590, "unimarc": 1890, "santa_isabel": 1790, "jumbo": 2090, "spid": 1750 } },
+        { "fecha": "2026-05", "valores": { "lider": 1590, "unimarc": 1890, "santa_isabel": 1790, "jumbo": 2090, "spid": 1750 } },
+        { "fecha": "2026-06", "valores": { "lider": 1590, "unimarc": 1890, "santa_isabel": 1790, "jumbo": 2090, "spid": 1750 } }
+      ]
+    },
+    {
+      "id": 26,
+      "nombre": "Ambientador 300ml",
+      "categoria": "Limpieza",
+      "imagen": "🌸",
+      "precios": [
+        { "supermercado": "lider", "valor": 2090, "link": "https://www.lider.cl/ambientador", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 2390, "link": "https://www.unimarc.cl/ambientador", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 2290, "link": "https://www.santaisabel.cl/ambientador", "esOferta": true, "precioAnterior": 2590 },
+        { "supermercado": "jumbo", "valor": 2590, "link": "https://www.jumbo.cl/ambientador", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 2190, "link": "https://www.spid.cl/ambientador", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 2390, "unimarc": 2690, "santa_isabel": 2590, "jumbo": 2890, "spid": 2490 } },
+        { "fecha": "2026-02", "valores": { "lider": 2290, "unimarc": 2590, "santa_isabel": 2490, "jumbo": 2790, "spid": 2390 } },
+        { "fecha": "2026-03", "valores": { "lider": 2190, "unimarc": 2490, "santa_isabel": 2390, "jumbo": 2690, "spid": 2290 } },
+        { "fecha": "2026-04", "valores": { "lider": 2090, "unimarc": 2390, "santa_isabel": 2290, "jumbo": 2590, "spid": 2190 } },
+        { "fecha": "2026-05", "valores": { "lider": 2090, "unimarc": 2390, "santa_isabel": 2290, "jumbo": 2590, "spid": 2190 } },
+        { "fecha": "2026-06", "valores": { "lider": 2090, "unimarc": 2390, "santa_isabel": 2290, "jumbo": 2590, "spid": 2190 } }
+      ]
+    },
+    {
+      "id": 27,
+      "nombre": "Comida para Perro 3kg",
+      "categoria": "Mascotas",
+      "imagen": "🐕",
+      "precios": [
+        { "supermercado": "lider", "valor": 8990, "link": "https://www.lider.cl/comida-perro", "esOferta": true, "precioAnterior": 10990 },
+        { "supermercado": "unimarc", "valor": 9990, "link": "https://www.unimarc.cl/comida-perro", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 9590, "link": "https://www.santaisabel.cl/comida-perro", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 10990, "link": "https://www.jumbo.cl/comida-perro", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 9490, "link": "https://www.spid.cl/comida-perro", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 10990, "unimarc": 11990, "santa_isabel": 11590, "jumbo": 12990, "spid": 11490 } },
+        { "fecha": "2026-02", "valores": { "lider": 10590, "unimarc": 11590, "santa_isabel": 11190, "jumbo": 12590, "spid": 11090 } },
+        { "fecha": "2026-03", "valores": { "lider": 9990, "unimarc": 10990, "santa_isabel": 10590, "jumbo": 11990, "spid": 10490 } },
+        { "fecha": "2026-04", "valores": { "lider": 9490, "unimarc": 9990, "santa_isabel": 9590, "jumbo": 10990, "spid": 9490 } },
+        { "fecha": "2026-05", "valores": { "lider": 8990, "unimarc": 9990, "santa_isabel": 9590, "jumbo": 10990, "spid": 9490 } },
+        { "fecha": "2026-06", "valores": { "lider": 8990, "unimarc": 9990, "santa_isabel": 9590, "jumbo": 10990, "spid": 9490 } }
+      ]
+    },
+    {
+      "id": 28,
+      "nombre": "Arena para Gato 5kg",
+      "categoria": "Mascotas",
+      "imagen": "🐱",
+      "precios": [
+        { "supermercado": "lider", "valor": 5990, "link": "https://www.lider.cl/arena-gato", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 6590, "link": "https://www.unimarc.cl/arena-gato", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 6390, "link": "https://www.santaisabel.cl/arena-gato", "esOferta": true, "precioAnterior": 6990 },
+        { "supermercado": "jumbo", "valor": 6990, "link": "https://www.jumbo.cl/arena-gato", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 6290, "link": "https://www.spid.cl/arena-gato", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 6990, "unimarc": 7590, "santa_isabel": 7490, "jumbo": 7990, "spid": 7290 } },
+        { "fecha": "2026-02", "valores": { "lider": 6690, "unimarc": 7290, "santa_isabel": 7190, "jumbo": 7690, "spid": 6990 } },
+        { "fecha": "2026-03", "valores": { "lider": 6390, "unimarc": 6990, "santa_isabel": 6890, "jumbo": 7390, "spid": 6690 } },
+        { "fecha": "2026-04", "valores": { "lider": 5990, "unimarc": 6590, "santa_isabel": 6390, "jumbo": 6990, "spid": 6290 } },
+        { "fecha": "2026-05", "valores": { "lider": 5990, "unimarc": 6590, "santa_isabel": 6390, "jumbo": 6990, "spid": 6290 } },
+        { "fecha": "2026-06", "valores": { "lider": 5990, "unimarc": 6590, "santa_isabel": 6390, "jumbo": 6990, "spid": 6290 } }
+      ]
+    },
+    {
+      "id": 29,
+      "nombre": "Papas Congeladas 1kg",
+      "categoria": "Congelados",
+      "imagen": "🍟",
+      "precios": [
+        { "supermercado": "lider", "valor": 2990, "link": "https://www.lider.cl/papas-congeladas", "esOferta": true, "precioAnterior": 3590 },
+        { "supermercado": "unimarc", "valor": 3390, "link": "https://www.unimarc.cl/papas-congeladas", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 3290, "link": "https://www.santaisabel.cl/papas-congeladas", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 3690, "link": "https://www.jumbo.cl/papas-congeladas", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 3190, "link": "https://www.spid.cl/papas-congeladas", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 3590, "unimarc": 3890, "santa_isabel": 3790, "jumbo": 4090, "spid": 3690 } },
+        { "fecha": "2026-02", "valores": { "lider": 3390, "unimarc": 3690, "santa_isabel": 3590, "jumbo": 3890, "spid": 3490 } },
+        { "fecha": "2026-03", "valores": { "lider": 3190, "unimarc": 3490, "santa_isabel": 3390, "jumbo": 3690, "spid": 3290 } },
+        { "fecha": "2026-04", "valores": { "lider": 2990, "unimarc": 3390, "santa_isabel": 3290, "jumbo": 3690, "spid": 3190 } },
+        { "fecha": "2026-05", "valores": { "lider": 2990, "unimarc": 3390, "santa_isabel": 3290, "jumbo": 3690, "spid": 3190 } },
+        { "fecha": "2026-06", "valores": { "lider": 2990, "unimarc": 3390, "santa_isabel": 3290, "jumbo": 3690, "spid": 3190 } }
+      ]
+    },
+    {
+      "id": 30,
+      "nombre": "Helado Vainilla 1L",
+      "categoria": "Congelados",
+      "imagen": "🍦",
+      "precios": [
+        { "supermercado": "lider", "valor": 3990, "link": "https://www.lider.cl/helado", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 4490, "link": "https://www.unimarc.cl/helado", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 4290, "link": "https://www.santaisabel.cl/helado", "esOferta": true, "precioAnterior": 4790 },
+        { "supermercado": "jumbo", "valor": 4690, "link": "https://www.jumbo.cl/helado", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 4190, "link": "https://www.spid.cl/helado", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 4490, "unimarc": 4990, "santa_isabel": 4790, "jumbo": 5290, "spid": 4690 } },
+        { "fecha": "2026-02", "valores": { "lider": 4290, "unimarc": 4790, "santa_isabel": 4590, "jumbo": 5090, "spid": 4490 } },
+        { "fecha": "2026-03", "valores": { "lider": 4090, "unimarc": 4590, "santa_isabel": 4390, "jumbo": 4890, "spid": 4290 } },
+        { "fecha": "2026-04", "valores": { "lider": 3990, "unimarc": 4490, "santa_isabel": 4290, "jumbo": 4690, "spid": 4190 } },
+        { "fecha": "2026-05", "valores": { "lider": 3990, "unimarc": 4490, "santa_isabel": 4290, "jumbo": 4690, "spid": 4190 } },
+        { "fecha": "2026-06", "valores": { "lider": 3990, "unimarc": 4490, "santa_isabel": 4290, "jumbo": 4690, "spid": 4190 } }
+      ]
+    },
+    {
+      "id": 31,
+      "nombre": "Agua Sin Gas 1.5L",
+      "categoria": "Bebidas",
+      "imagen": "💧",
+      "precios": [
+        { "supermercado": "lider", "valor": 790, "link": "https://www.lider.cl/agua", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 990, "link": "https://www.unimarc.cl/agua", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 890, "link": "https://www.santaisabel.cl/agua", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 1090, "link": "https://www.jumbo.cl/agua", "esOferta": true, "precioAnterior": 1290 },
+        { "supermercado": "spid", "valor": 850, "link": "https://www.spid.cl/agua", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 990, "unimarc": 1190, "santa_isabel": 1090, "jumbo": 1290, "spid": 1050 } },
+        { "fecha": "2026-02", "valores": { "lider": 950, "unimarc": 1150, "santa_isabel": 1050, "jumbo": 1250, "spid": 990 } },
+        { "fecha": "2026-03", "valores": { "lider": 890, "unimarc": 1090, "santa_isabel": 990, "jumbo": 1190, "spid": 950 } },
+        { "fecha": "2026-04", "valores": { "lider": 790, "unimarc": 990, "santa_isabel": 890, "jumbo": 1090, "spid": 850 } },
+        { "fecha": "2026-05", "valores": { "lider": 790, "unimarc": 990, "santa_isabel": 890, "jumbo": 1090, "spid": 850 } },
+        { "fecha": "2026-06", "valores": { "lider": 790, "unimarc": 990, "santa_isabel": 890, "jumbo": 1090, "spid": 850 } }
+      ]
+    },
+    {
+      "id": 32,
+      "nombre": "Jugo Néctar 1L",
+      "categoria": "Bebidas",
+      "imagen": "🧃",
+      "precios": [
+        { "supermercado": "lider", "valor": 1490, "link": "https://www.lider.cl/jugo", "esOferta": true, "precioAnterior": 1790 },
+        { "supermercado": "unimarc", "valor": 1690, "link": "https://www.unimarc.cl/jugo", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 1590, "link": "https://www.santaisabel.cl/jugo", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 1890, "link": "https://www.jumbo.cl/jugo", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 1550, "link": "https://www.spid.cl/jugo", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 1790, "unimarc": 1990, "santa_isabel": 1890, "jumbo": 2190, "spid": 1850 } },
+        { "fecha": "2026-02", "valores": { "lider": 1690, "unimarc": 1890, "santa_isabel": 1790, "jumbo": 2090, "spid": 1790 } },
+        { "fecha": "2026-03", "valores": { "lider": 1590, "unimarc": 1790, "santa_isabel": 1690, "jumbo": 1990, "spid": 1690 } },
+        { "fecha": "2026-04", "valores": { "lider": 1490, "unimarc": 1690, "santa_isabel": 1590, "jumbo": 1890, "spid": 1550 } },
+        { "fecha": "2026-05", "valores": { "lider": 1490, "unimarc": 1690, "santa_isabel": 1590, "jumbo": 1890, "spid": 1550 } },
+        { "fecha": "2026-06", "valores": { "lider": 1490, "unimarc": 1690, "santa_isabel": 1590, "jumbo": 1890, "spid": 1550 } }
+      ]
+    },
+    {
+      "id": 33,
+      "nombre": "Cerveza 6-pack",
+      "categoria": "Bebidas",
+      "imagen": "🍺",
+      "precios": [
+        { "supermercado": "lider", "valor": 4990, "link": "https://www.lider.cl/cerveza", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 5590, "link": "https://www.unimarc.cl/cerveza", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 5390, "link": "https://www.santaisabel.cl/cerveza", "esOferta": true, "precioAnterior": 5990 },
+        { "supermercado": "jumbo", "valor": 5790, "link": "https://www.jumbo.cl/cerveza", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 5290, "link": "https://www.spid.cl/cerveza", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 5590, "unimarc": 6090, "santa_isabel": 5990, "jumbo": 6390, "spid": 5890 } },
+        { "fecha": "2026-02", "valores": { "lider": 5390, "unimarc": 5890, "santa_isabel": 5790, "jumbo": 6190, "spid": 5690 } },
+        { "fecha": "2026-03", "valores": { "lider": 5190, "unimarc": 5690, "santa_isabel": 5590, "jumbo": 5990, "spid": 5490 } },
+        { "fecha": "2026-04", "valores": { "lider": 4990, "unimarc": 5590, "santa_isabel": 5390, "jumbo": 5790, "spid": 5290 } },
+        { "fecha": "2026-05", "valores": { "lider": 4990, "unimarc": 5590, "santa_isabel": 5390, "jumbo": 5790, "spid": 5290 } },
+        { "fecha": "2026-06", "valores": { "lider": 4990, "unimarc": 5590, "santa_isabel": 5390, "jumbo": 5790, "spid": 5290 } }
+      ]
+    },
+    {
+      "id": 34,
+      "nombre": "Galletas Surtidas 300g",
+      "categoria": "Despensa",
+      "imagen": "🍪",
+      "precios": [
+        { "supermercado": "lider", "valor": 1290, "link": "https://www.lider.cl/galletas", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "unimarc", "valor": 1490, "link": "https://www.unimarc.cl/galletas", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 1390, "link": "https://www.santaisabel.cl/galletas", "esOferta": true, "precioAnterior": 1590 },
+        { "supermercado": "jumbo", "valor": 1590, "link": "https://www.jumbo.cl/galletas", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 1350, "link": "https://www.spid.cl/galletas", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 1490, "unimarc": 1690, "santa_isabel": 1590, "jumbo": 1790, "spid": 1550 } },
+        { "fecha": "2026-02", "valores": { "lider": 1450, "unimarc": 1650, "santa_isabel": 1550, "jumbo": 1750, "spid": 1490 } },
+        { "fecha": "2026-03", "valores": { "lider": 1390, "unimarc": 1590, "santa_isabel": 1490, "jumbo": 1690, "spid": 1450 } },
+        { "fecha": "2026-04", "valores": { "lider": 1290, "unimarc": 1490, "santa_isabel": 1390, "jumbo": 1590, "spid": 1350 } },
+        { "fecha": "2026-05", "valores": { "lider": 1290, "unimarc": 1490, "santa_isabel": 1390, "jumbo": 1590, "spid": 1350 } },
+        { "fecha": "2026-06", "valores": { "lider": 1290, "unimarc": 1490, "santa_isabel": 1390, "jumbo": 1590, "spid": 1350 } }
+      ]
+    },
+    {
+      "id": 35,
+      "nombre": "Cereal 500g",
+      "categoria": "Despensa",
+      "imagen": "🥣",
+      "precios": [
+        { "supermercado": "lider", "valor": 2590, "link": "https://www.lider.cl/cereal", "esOferta": true, "precioAnterior": 2990 },
+        { "supermercado": "unimarc", "valor": 2990, "link": "https://www.unimarc.cl/cereal", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "santa_isabel", "valor": 2790, "link": "https://www.santaisabel.cl/cereal", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "jumbo", "valor": 3190, "link": "https://www.jumbo.cl/cereal", "esOferta": false, "precioAnterior": null },
+        { "supermercado": "spid", "valor": 2690, "link": "https://www.spid.cl/cereal", "esOferta": false, "precioAnterior": null }
+      ],
+      "historialPrecios": [
+        { "fecha": "2026-01", "valores": { "lider": 2990, "unimarc": 3290, "santa_isabel": 3090, "jumbo": 3490, "spid": 2990 } },
+        { "fecha": "2026-02", "valores": { "lider": 2890, "unimarc": 3190, "santa_isabel": 2990, "jumbo": 3390, "spid": 2890 } },
+        { "fecha": "2026-03", "valores": { "lider": 2790, "unimarc": 3090, "santa_isabel": 2890, "jumbo": 3290, "spid": 2790 } },
+        { "fecha": "2026-04", "valores": { "lider": 2590, "unimarc": 2990, "santa_isabel": 2790, "jumbo": 3190, "spid": 2690 } },
+        { "fecha": "2026-05", "valores": { "lider": 2590, "unimarc": 2990, "santa_isabel": 2790, "jumbo": 3190, "spid": 2690 } },
+        { "fecha": "2026-06", "valores": { "lider": 2590, "unimarc": 2990, "santa_isabel": 2790, "jumbo": 3190, "spid": 2690 } }
+      ]
+    }
+  ]
+}
