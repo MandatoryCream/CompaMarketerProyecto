@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-const COLORS = ['rgba(0,78,137,0.08)', 'rgba(255,107,53,0.06)', 'rgba(26,147,111,0.05)', 'rgba(247,183,49,0.04)'];
+const COLORS = ['rgba(216,27,96,0.08)', 'rgba(255,193,7,0.06)', 'rgba(136,14,79,0.05)', 'rgba(216,27,96,0.04)'];
 
 export default function ParticleBackground() {
   const canvasRef = useRef(null);
@@ -81,7 +81,7 @@ export default function ParticleBackground() {
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(0,78,137,${opacity})`;
+            ctx.strokeStyle = `rgba(216,27,96,${opacity})`;
             ctx.lineWidth = 0.8;
             ctx.stroke();
           }

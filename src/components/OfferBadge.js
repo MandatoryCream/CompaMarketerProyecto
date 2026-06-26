@@ -8,7 +8,7 @@ export default function OfferBadge({ esOferta, precioAnterior }) {
         animate={{ scale: 1 }}
         transition={{ type: 'spring', stiffness: 500, damping: 15 }}
         style={{
-          background: 'linear-gradient(135deg, #FF6B35, #F7B731)',
+          background: 'var(--gradient-primary)',
           color: '#fff',
           padding: '3px 10px',
           borderRadius: '12px',

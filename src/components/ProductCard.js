@@ -10,7 +10,7 @@ const SUPER_NAMES = {
   spid: 'Spid',
 };
 
-export default function ProductCard({ producto, index, onClick }) {
+export default function ProductCard({ producto, index, onClick, onEdit, onDelete }) {
   const { precios } = producto;
   const mejorPrecio = Math.min(...precios.map((p) => p.valor));
   const mejorSuper = precios.find((p) => p.valor === mejorPrecio);
@@ -44,8 +44,8 @@ export default function ProductCard({ producto, index, onClick }) {
         transition: 'box-shadow 0.4s ease, border-color 0.4s ease',
       }}
       onMouseEnter={(e) => {
-        e.currentTarget.style.boxShadow = '0 12px 40px rgba(0,78,137,0.18)';
-        e.currentTarget.style.borderColor = 'rgba(0,78,137,0.15)';
+        e.currentTarget.style.boxShadow = '0 12px 40px rgba(216,27,96,0.18)';
+        e.currentTarget.style.borderColor = 'rgba(216,27,96,0.15)';
       }}
       onMouseLeave={(e) => {
         e.currentTarget.style.boxShadow = '0 2px 12px rgba(0,0,0,0.06)';
@@ -59,7 +59,7 @@ export default function ProductCard({ producto, index, onClick }) {
           left: 0,
           right: 0,
           height: '3px',
-          background: 'linear-gradient(90deg, #004E89, #FF6B35, #1A936F, #004E89)',
+          background: 'linear-gradient(90deg, #D81B60, #FFC107, #D81B60)',
           backgroundSize: '300% 100%',
           borderRadius: '20px 20px 0 0',
           opacity: 0,
@@ -151,18 +151,62 @@ export default function ProductCard({ producto, index, onClick }) {
         </div>
       )}
 
-      <motion.div
-        whileHover={{ scale: 1.03 }}
-        style={{
-          textAlign: 'center', marginTop: 'auto',
-          color: '#fff', fontSize: '0.78rem', fontWeight: 600,
-          padding: '8px 12px', borderRadius: '10px',
-          background: 'linear-gradient(135deg, #004E89, #1A6FB5)',
-          boxShadow: '0 2px 8px rgba(0,78,137,0.25)',
-        }}
-      >
-        Ver detalle →
-      </motion.div>
+      <div style={{ display: 'flex', gap: '6px', alignItems: 'stretch' }}>
+        <motion.div
+          whileHover={{ scale: 1.03 }}
+          onClick={(e) => { e.stopPropagation(); onClick(producto); }}
+          style={{
+            flex: 1, textAlign: 'center',
+            color: '#fff', fontSize: '0.78rem', fontWeight: 600,
+            padding: '8px 12px', borderRadius: '10px',
+            background: 'var(--gradient-primary)',
+            boxShadow: '0 2px 8px rgba(216,27,96,0.25)',
+            cursor: 'pointer',
+          }}
+        >
+          Ver detalle →
+        </motion.div>
+        {onEdit && (
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={(e) => { e.stopPropagation(); onEdit(producto); }}
+            style={{
+              background: 'var(--magenta-light)',
+              border: '1px solid rgba(216,27,96,0.2)',
+              borderRadius: '10px',
+              padding: '8px 10px',
+              cursor: 'pointer',
+              color: 'var(--magenta)',
+              fontSize: '0.9rem',
+              lineHeight: 1,
+            }}
+            title="Editar producto"
+          >
+            ✏️
+          </motion.button>
+        )}
+        {onDelete && (
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={(e) => { e.stopPropagation(); onDelete(producto); }}
+            style={{
+              background: '#FFF0F0',
+              border: '1px solid rgba(220,53,69,0.2)',
+              borderRadius: '10px',
+              padding: '8px 10px',
+              cursor: 'pointer',
+              color: '#DC3545',
+              fontSize: '0.9rem',
+              lineHeight: 1,
+            }}
+            title="Eliminar producto"
+          >
+            🗑️
+          </motion.button>
+        )}
+      </div>
     </motion.div>
   );
 }

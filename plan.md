@@ -1,5 +1,7 @@
 # CompaMarketer - Plan SSD (Spec-Driven Development)
 
+# Este es el primer plan que se utilizó para crear la página web, que resultó incompleta y se mejoró después con los prompts y el segundo plan en los archivos prompts.md y planFix1.md
+
 ## Visión General
 Aplicación web React para comparar precios de productos en supermercados chilenos (Líder, Unimarc, Santa Isabel, Jumbo, Spid). Muestra tabla comparativa, gráfico histórico de precios, indicadores de oferta, y enlaces al producto más barato.
 

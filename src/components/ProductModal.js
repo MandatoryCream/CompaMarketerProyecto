@@ -45,10 +45,10 @@ export default function ProductModal({ producto, supermercados, onClose }) {
           <div style={{
             position: 'sticky',
             top: 0,
-            backgroundColor: 'rgba(255,255,255,0.9)',
+            background: 'linear-gradient(135deg, rgba(216,27,96,0.05), rgba(255,193,7,0.05))',
             backdropFilter: 'blur(10px)',
             padding: '20px 24px',
-            borderBottom: '1px solid #F0F0F0',
+            borderBottom: '1px solid rgba(216,27,96,0.1)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',

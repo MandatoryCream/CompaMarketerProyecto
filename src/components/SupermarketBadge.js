@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 
 const SUPER_COLORS = {
-  lider: { bg: '#E8F5E9', text: '#2E7D32', border: '#A5D6A7' },
-  unimarc: { bg: '#FFEBEE', text: '#C62828', border: '#EF9A9A' },
-  santa_isabel: { bg: '#E3F2FD', text: '#1565C0', border: '#90CAF9' },
+  lider: { bg: '#FCE4EC', text: '#D81B60', border: '#F48FB1' },
+  unimarc: { bg: '#F3E5F5', text: '#880E4F', border: '#CE93D8' },
+  santa_isabel: { bg: '#FFF8E1', text: '#F57F17', border: '#FFE082' },
   jumbo: { bg: '#FFF3E0', text: '#E65100', border: '#FFCC80' },
-  spid: { bg: '#E1F5FE', text: '#0277BD', border: '#81D4FA' },
+  spid: { bg: '#FCE4EC', text: '#AD1457', border: '#F48FB1' },
 };
 
 export default function SupermarketBadge({ id, nombre, size = 'md' }) {

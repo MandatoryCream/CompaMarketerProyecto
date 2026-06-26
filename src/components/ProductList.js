@@ -2,28 +2,26 @@ import { useState } from 'react';
 import ProductCard from './ProductCard';
 import ProductModal from './ProductModal';
 
-export default function ProductList({ productos, supermercados }) {
+export default function ProductList({ productos, supermercados, onEdit, onDelete }) {
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   return (
     <>
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
-        gap: '20px',
-        padding: '24px',
-        maxWidth: '1200px',
-        margin: '0 auto',
-      }}>
-        {productos.map((producto, index) => (
-          <ProductCard
-            key={producto.id}
-            producto={producto}
-            supermercados={supermercados}
-            index={index}
-            onClick={setSelectedProduct}
-          />
-        ))}
+      <div className="container" style={{ padding: '24px' }}>
+        <div className="row g-3">
+          {productos.map((producto, index) => (
+            <div key={producto.id} className="col-12 col-sm-6 col-md-4 col-lg-3">
+              <ProductCard
+                producto={producto}
+                supermercados={supermercados}
+                index={index}
+                onClick={setSelectedProduct}
+                onEdit={onEdit}
+                onDelete={onDelete}
+              />
+            </div>
+          ))}
+        </div>
       </div>
 
       {productos.length === 0 && (

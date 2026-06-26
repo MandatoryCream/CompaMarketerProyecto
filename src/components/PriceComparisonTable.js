@@ -51,7 +51,7 @@ export default function PriceComparisonTable({ producto, supermercados }) {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.08 }}
                 style={{
-                  backgroundColor: esMejor ? 'rgba(26,147,111,0.06)' : '#fff',
+                    backgroundColor: esMejor ? 'rgba(255,193,7,0.08)' : '#fff',
                   borderBottom: '1px solid #F0F0F0',
                   transition: 'background-color 0.3s ease',
                 }}
@@ -79,7 +79,7 @@ export default function PriceComparisonTable({ producto, supermercados }) {
                   <span style={{
                     fontSize: '1.1rem',
                     fontWeight: esMejor ? 800 : 500,
-                    color: esMejor ? '#1A936F' : '#333',
+                    color: esMejor ? '#D81B60' : '#333',
                   }}>
                     ${p.valor.toLocaleString('es-CL')}
                   </span>
@@ -105,7 +105,7 @@ export default function PriceComparisonTable({ producto, supermercados }) {
                       display: 'inline-block',
                       padding: '6px 14px',
                       borderRadius: '8px',
-                      backgroundColor: esMejor ? '#1A936F' : '#004E89',
+                      backgroundColor: esMejor ? '#FFC107' : '#D81B60',
                       color: '#fff',
                       textDecoration: 'none',
                       fontSize: '0.78rem',

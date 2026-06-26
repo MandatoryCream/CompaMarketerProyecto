@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 export default function Header({ categorias, categoriaActiva, onCambiarCategoria }) {
   return (
     <header style={{
-      background: 'linear-gradient(135deg, #004E89 0%, #1A6FB5 50%, #004E89 100%)',
+      background: 'var(--gradient-header)',
       padding: '20px 24px 16px',
-      boxShadow: '0 4px 30px rgba(0,78,137,0.3)',
+      boxShadow: '0 4px 30px rgba(216,27,96,0.3)',
       position: 'sticky',
       top: 0,
       zIndex: 100,
@@ -39,7 +39,7 @@ export default function Header({ categorias, categoriaActiva, onCambiarCategoria
               fontSize: '1.6rem',
               fontWeight: 800,
               letterSpacing: '-0.5px',
-              background: 'linear-gradient(90deg, #FF6B35, #F7B731)',
+              background: 'var(--gradient-primary)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
             }}>
@@ -83,9 +83,9 @@ export default function Header({ categorias, categoriaActiva, onCambiarCategoria
             style={{
               padding: '8px 18px',
               borderRadius: '25px',
-              border: categoriaActiva === cat ? '2px solid #FF6B35' : '2px solid rgba(255,255,255,0.2)',
-              backgroundColor: categoriaActiva === cat ? 'rgba(255,107,53,0.2)' : 'rgba(255,255,255,0.08)',
-              color: categoriaActiva === cat ? '#FF6B35' : 'rgba(255,255,255,0.8)',
+              border: categoriaActiva === cat ? '2px solid #FFC107' : '2px solid rgba(255,255,255,0.2)',
+              backgroundColor: categoriaActiva === cat ? 'rgba(255,193,7,0.2)' : 'rgba(255,255,255,0.08)',
+              color: categoriaActiva === cat ? '#FFC107' : 'rgba(255,255,255,0.8)',
               cursor: 'pointer',
               fontSize: '0.82rem',
               fontWeight: categoriaActiva === cat ? 700 : 500,

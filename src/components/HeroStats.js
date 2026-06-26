@@ -55,7 +55,7 @@ function StatCard({ icon, label, value, color, delay }) {
         boxShadow: '0 2px 12px rgba(0,0,0,0.04)',
         transition: 'box-shadow 0.3s ease',
       }}
-      onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 8px 30px rgba(0,78,137,0.12)'; }}
+      onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 8px 30px rgba(216,27,96,0.12)'; }}
       onMouseLeave={(e) => { e.currentTarget.style.boxShadow = '0 2px 12px rgba(0,0,0,0.04)'; }}
     >
       <span style={{ fontSize: '1.8rem', lineHeight: 1 }}>{icon}</span>
@@ -120,10 +120,10 @@ export default function HeroStats({ productos }) {
         flexWrap: 'wrap',
         justifyContent: 'center',
       }}>
-        <StatCard icon="📦" label="Productos monitoreados" value={totalProductos} color="#004E89" delay={0.1} />
-        <StatCard icon="🏪" label="Precios registrados" value={totalPrecios} color="#FF6B35" delay={0.2} />
-        <StatCard icon="🔥" label="Ofertas activas" value={ofertas} color="#1A936F" delay={0.3} />
-        <StatCard icon={`🏆`} label={`${topSuper ? superNames[topSuper[0]] || topSuper[0] : '-'} tiene más baratos`} value={topSuper ? topSuper[1] : 0} color="#F7B731" delay={0.4} />
+        <StatCard icon="📦" label="Productos monitoreados" value={totalProductos} color="#D81B60" delay={0.1} />
+        <StatCard icon="🏪" label="Precios registrados" value={totalPrecios} color="#AD1457" delay={0.2} />
+        <StatCard icon="🔥" label="Ofertas activas" value={ofertas} color="#FFC107" delay={0.3} />
+        <StatCard icon={`🏆`} label={`${topSuper ? superNames[topSuper[0]] || topSuper[0] : '-'} tiene más baratos`} value={topSuper ? topSuper[1] : 0} color="#880E4F" delay={0.4} />
       </div>
     </motion.div>
   );

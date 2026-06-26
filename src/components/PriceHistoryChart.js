@@ -5,11 +5,11 @@ import {
 import { motion } from 'framer-motion';
 
 const SUPER_LINE_COLORS = {
-  lider: '#00A650',
-  unimarc: '#E30613',
-  santa_isabel: '#003DA5',
-  jumbo: '#F58220',
-  spid: '#0098D5',
+  lider: '#D81B60',
+  unimarc: '#880E4F',
+  santa_isabel: '#FFC107',
+  jumbo: '#E65100',
+  spid: '#6A1B9A',
 };
 
 const SUPER_NAMES = {
